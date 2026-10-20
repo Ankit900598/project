@@ -1,0 +1,37 @@
+ADD USER Alice
+ADD USER bob
+ADD USER Carol
+ADD USER dave
+ADD USER Eve
+ADD USER frank
+ADD USER alice
+ADD FRIEND alice BOB
+ADD FRIEND alice carol
+ADD FRIEND bob dave
+ADD FRIEND carol dave
+ADD FRIEND bob eve
+ADD FRIEND alice bob
+ADD FRIEND alice alice
+ADD FRIEND alice zed
+LIST FRIENDS ALICE
+LIST FRIENDS frank
+SUGGEST FRIENDS alice 5
+SUGGEST FRIENDS alice 1
+SUGGEST FRIENDS alice 0
+SUGGEST FRIENDS alice -2
+SUGGEST FRIENDS zed 3
+SUGGEST FRIENDS frank 3
+DEGREES OF SEPARATION alice dave
+DEGREES OF SEPARATION eve carol
+DEGREES OF SEPARATION alice alice
+DEGREES OF SEPARATION alice frank
+ADD POST alice "Hello World"
+ADD POST alice "Second post"
+ADD POST alice "Second post"
+ADD POST alice "Third, with spaces   inside"
+ADD POST bob no quotes
+OUTPUT POSTS alice 2
+OUTPUT POSTS alice -1
+OUTPUT POSTS bob -1
+OUTPUT POSTS alice abc
+DANCE now
