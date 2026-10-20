@@ -1,4 +1,4 @@
-# Group Projects
+# Projects
 
 Collection of my course and personal projects.
 

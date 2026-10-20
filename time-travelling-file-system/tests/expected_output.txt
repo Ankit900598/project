@@ -1,0 +1,36 @@
+Created notes
+INSERT ok (active version 1)
+INSERT ok (active version 1)
+Hello World
+Snapshot of version 1 saved
+Error: version 1 is already a snapshot
+UPDATE ok (active version 2)
+Snapshot of version 2 saved
+Active version is now 0
+INSERT ok (active version 3)
+Branch B
+0 | <time> | Initial snapshot
+Active version is now 0
+
+Error: already at root version
+Error: version 99 does not exist
+Error: version id must be a non-negative integer
+Error: file 'notes' already exists
+Error: file 'ghost' does not exist
+Error: INSERT needs content
+Error: unknown command 'FLY'
+Created todo
+INSERT ok (active version 1)
+Created log
+INSERT ok (active version 1)
+Snapshot of version 1 saved
+INSERT ok (active version 2)
+Snapshot of version 2 saved
+INSERT ok (active version 3)
+notes 4
+log 4
+todo 2
+notes 4
+log 4
+notes <time>
+Error: count must be a non-negative integer

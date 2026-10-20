@@ -1,0 +1,35 @@
+CREATE notes
+INSERT notes Hello
+INSERT notes  World
+READ notes
+SNAPSHOT notes first draft
+SNAPSHOT notes again
+UPDATE notes Rewritten
+SNAPSHOT notes rewrite
+ROLLBACK notes 0
+INSERT notes Branch B
+READ notes
+HISTORY notes
+ROLLBACK notes
+READ notes
+ROLLBACK notes
+ROLLBACK notes 99
+ROLLBACK notes abc
+CREATE notes
+READ ghost
+INSERT notes
+FLY notes
+CREATE todo
+INSERT todo buy milk
+CREATE log
+INSERT log a
+SNAPSHOT log s1
+INSERT log b
+SNAPSHOT log s2
+INSERT log c
+BIGGEST_TREES
+BIGGEST TREES 2
+RECENT_FILES 1
+RECENT FILES x
+EXIT
+READ notes
